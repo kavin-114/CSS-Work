@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+body{
+    background-image: url(back-body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 30px;
+    font-family:  'Josefin Sans', sans-serif;
+}
+.container{
+    position: relative;
+    /* padding:10px; */
+    height:40%;
+    width: 65%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 15px black;
+}
+.wrapper{
+   position: relative;
+   left: 0;
+    background-color:rgba(95, 158, 160, 0.5);
+    width: 50%;
+}
+table{
+   padding: 5%;
+   width: 100%;
+}
+#heading {
+    text-align: center;
+ }
+ .wrapper table input, .wrapper table select{
+    margin-bottom: 8px;
+ }
+ .wrapper input[type="text"],.wrapper input[type="email"],.wrapper input[type="password"], .wrapper input[type="date"],.wrapper input[type="tel"],.wrapper select{
+    width: 90%;
+    /* padding-left: 10%; */
+    height: 30px;
+    border-bottom: 3px solid black ;
+    border-radius: 5px;
+ }
+ #address{
+    height: 60px;
+    width: 97%;
+ }
+ #dropdown2{
+    width: 98%;
+ }
+ .submit, .btn{
+   height: fit-content;
+   padding: 10px;
+   width: 60%;
+   margin-left: 25%;
+   border-radius: 8px;
+ }
+ #checkbox{
+    margin-bottom: 10px;
+ }
+ #or{
+    text-align: center;
+ }
+.side-image{
+   position: absolute;
+   left: 50%;
+   top: 0;
+    width: 50%;
+    height: 100%;
+}
+.side-image img{
+   width:100%;
+   height: 100%;
+}
+
+.submit{
+   background-color: rgb(245, 97, 97);
+   letter-spacing: 2px;
+   font-weight: bold;
+   color: white;
+}
+
+
+.username, .mail, .pwd, .phone, .btn-1, .btn-2, .btn-3{
+   position: relative;
+}
+
+.username i, .mail i, .pwd i, .phone i{
+   position: absolute;
+   left: 10px;
+   top: 10px;
+   opacity: 0.5;
+}
+.gmail i, .twitter i, .facebook i{
+   padding-left:10px;
+   float: left;
+}
+
+ .username input, .mail input, .pwd input, .phone input{
+   text-indent: 15%;
+ }
+
+.gmail{
+   background-color: #dd4b39;
+   color: white;
+   letter-spacing: 1px;
+   font-weight: bold;
+   padding: 4px;
+   height: fit-content;
+   padding: 10px;
+}
+.facebook{
+   background-color: #3B5998;
+   color: white;
+   letter-spacing: 1px;
+   font-weight: bold;
+   padding: 4px;
+   height: fit-content;
+   padding: 10px;
+}
+
+.twitter{
+   background-color: #55ACEE;
+   color: white;
+   letter-spacing: 1px;
+   font-weight: bold;
+   padding: 4px;
+   height: fit-content;
+   padding: 10px;
+}
+.gmail:hover{
+   box-shadow: 0px 1px black;
+   border: 3px solid black;
+   background-color: #9f372a;
+
+}
+.twitter:hover{
+   box-shadow: 0px 1px black;
+   border: 3px solid black;
+   background-color: #4293d1;
+
+}
+.facebook:hover{
+   box-shadow: 0px 1px black;
+   border: 3px solid black;
+   background-color: #233d75;
+
+}
+.submit:hover{
+   box-shadow: 0px 1px black;
+   border: 3px solid black;
+   background-color: #9f372a;
+   
+}
